@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Android Test</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="url_list">urlList</string>
+    <string name="url">url</string>
+    <string name="confirm_dialog_title">Log Out</string>
+    <string name="confirm_dialog_message">Are you sure want to Logout?</string>
+    <string name="confirm_dialog_text">confirm</string>
+    <string name="url_auth_part"> oauth/authorize/?client_id=</string>
+    <string name="url_redirect_part">&amp;redirect_uri=</string>
+    <string name="url_other_part">&amp;response_type=token&amp;display=touch&amp;scope=public_content</string>
+    <string name="loading_text">Loading...</string>
+    <string name="url_acess_token_part">#access_token=</string>
+    <string name="url_error_part">\?error</string>
+    <string name="error">Error occurred</string>
+    <string name="url_instragram">https://www.instagram.com/</string>
+    <string name="url_instragram_login">https://www.instagram.com/accounts/login/</string>
+    <string name="login_error">user name and password did not match</string>
+    <string name="net_error">please check for internet connection</string>
+    <string name="url_recent_media">v1/users/self/media/recent</string>
+    <string name="access_token">access_token</string>
+</resources>
