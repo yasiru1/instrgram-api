@@ -22,7 +22,7 @@ public class FullImageActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         //get image url
         String url = getIntent().getExtras().getString(getResources().getString(R.string.url));
-        //fade animation
+        //fade animation alpha 0 to 1
         mImageView.setAlpha(0f);
         Picasso.with(this)
                 .load(url)
