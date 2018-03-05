@@ -28,5 +28,9 @@ public class FullImageActivity extends AppCompatActivity {
                 .load(url)
                 .into(mImageView);
         mImageView.animate().setDuration(1000).alpha(1f).start();
+
     }
+
+
+
 }

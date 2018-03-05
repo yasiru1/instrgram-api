@@ -84,7 +84,6 @@ public class ImageActivity extends AppCompatActivity implements
         ActivityOptions options = ActivityOptions.makeScaleUpAnimation(view, 0,
                 0, view.getWidth(), view.getHeight());
         startActivity(intent,options.toBundle());
-        startActivity(intent);
     }
 
 
